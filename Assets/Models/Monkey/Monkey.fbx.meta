@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: edcbd5a525ddbe642aa17b1595ed680d
+timeCreated: 1464096907
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: CRTL-neck
+    100004: CTRL-arm.L
+    100006: CTRL-arm.R
+    100008: CTRL-foot.L
+    100010: CTRL-foot.L_end
+    100012: CTRL-foot.R
+    100014: CTRL-foot.R_end
+    100016: CTRL-hand.L
+    100018: CTRL-hand.L_end
+    100020: CTRL-hand.R
+    100022: CTRL-hand.R_end
+    100024: CTRL-head
+    100026: CTRL-head_end
+    100028: CTRL-shin.L
+    100030: CTRL-shin.R
+    100032: CTRL-spine
+    100034: CTRL-tail
+    100036: CTRL-tail.001
+    100038: CTRL-tail.001_end
+    100040: CTRL-tail.002
+    100042: CTRL-thigh.L
+    100044: CTRL-thigh.R
+    100046: CTRL-torso
+    100048: CTRL-upperarm.L
+    100050: CTRL-upperarm.R
+    100052: Cube
+    100054: //RootNode
+    100056: root
+    100058: root_end
+    400000: Armature
+    400002: CRTL-neck
+    400004: CTRL-arm.L
+    400006: CTRL-arm.R
+    400008: CTRL-foot.L
+    400010: CTRL-foot.L_end
+    400012: CTRL-foot.R
+    400014: CTRL-foot.R_end
+    400016: CTRL-hand.L
+    400018: CTRL-hand.L_end
+    400020: CTRL-hand.R
+    400022: CTRL-hand.R_end
+    400024: CTRL-head
+    400026: CTRL-head_end
+    400028: CTRL-shin.L
+    400030: CTRL-shin.R
+    400032: CTRL-spine
+    400034: CTRL-tail
+    400036: CTRL-tail.001
+    400038: CTRL-tail.001_end
+    400040: CTRL-tail.002
+    400042: CTRL-thigh.L
+    400044: CTRL-thigh.R
+    400046: CTRL-torso
+    400048: CTRL-upperarm.L
+    400050: CTRL-upperarm.R
+    400052: Cube
+    400054: //RootNode
+    400056: root
+    400058: root_end
+    4300000: Cube
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CTRL-torso
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CRTL-neck
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CRTL-neck/CTRL-head
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CRTL-neck/CTRL-head/CTRL-head_end
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.L/CTRL-arm.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.L/CTRL-arm.L/CTRL-hand.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.L/CTRL-arm.L/CTRL-hand.L/CTRL-hand.L_end
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.R/CTRL-arm.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.R/CTRL-arm.R/CTRL-hand.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-spine/CTRL-upperarm.R/CTRL-arm.R/CTRL-hand.R/CTRL-hand.R_end
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-tail
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-tail/CTRL-tail.002
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-tail/CTRL-tail.002/CTRL-tail.001
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-tail/CTRL-tail.002/CTRL-tail.001/CTRL-tail.001_end
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.L/CTRL-shin.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.L/CTRL-shin.L/CTRL-foot.L
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.L/CTRL-shin.L/CTRL-foot.L/CTRL-foot.L_end
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.R/CTRL-shin.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.R/CTRL-shin.R/CTRL-foot.R
+        weight: 1
+      - path: Armature/CTRL-torso/CTRL-thigh.R/CTRL-shin.R/CTRL-foot.R/CTRL-foot.R_end
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/root_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

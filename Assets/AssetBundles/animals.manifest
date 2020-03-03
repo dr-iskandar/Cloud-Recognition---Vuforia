@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 4024512980
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70f25f518a9d60a3a264dc23ef9575ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7857f01706d68abc4c67cba329c1a3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Tiger.prefab
+- Assets/Prefabs/Monkey.prefab
+Dependencies: []

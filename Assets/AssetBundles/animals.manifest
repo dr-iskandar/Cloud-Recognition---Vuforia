@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4024512980
+CRC: 3123243834
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 70f25f518a9d60a3a264dc23ef9575ac
+    Hash: b9b258f122fa9c7555a907cec4c66f74
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3f7857f01706d68abc4c67cba329c1a3
@@ -34,4 +34,5 @@ ClassTypes:
 Assets:
 - Assets/Prefabs/Tiger.prefab
 - Assets/Prefabs/Monkey.prefab
+- Assets/Prefabs/Duck.prefab
 Dependencies: []

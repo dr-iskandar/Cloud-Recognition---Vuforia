@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
-// AssetBundle cache checker & loader with caching
-// worsk by loading .manifest file from server and parsing hash string from it
+
 namespace UnityLibrary
 {
     public class LoadAssets : MonoBehaviour
@@ -10,7 +9,9 @@ namespace UnityLibrary
         public string assetBundleURL = "http://localhost/bundle";
         public string namaaset;
 
-        void Start()
+        public Transform contentParent;
+
+        public void LoadContent()
         {
             StartCoroutine(DownloadAndCache(assetBundleURL, namaaset));
         }
@@ -103,16 +104,19 @@ namespace UnityLibrary
             if (bundlePrefab != null)
             {
                 // instantiate at 0,0,0 and without rotation
-                Instantiate(bundlePrefab, Vector3.zero, Quaternion.identity);
-                /*
-                                // fix pink shaders, NOTE: not always needed..
-                                foreach (Renderer r in go.GetComponentsInChildren<Renderer>(includeInactive: true))
-                                {
-                                    // FIXME: creates multiple materials, not good
-                                    var material = Shader.Find(r.material.shader.name);
-                                    r.material.shader = null;
-                                    r.material.shader = material;
-                                }*/
+                GameObject go = Instantiate(bundlePrefab);
+                go.transform.SetParent(contentParent);
+                go.transform.localPosition =  new Vector3 (0,0,0);
+                go.transform.localEulerAngles= new Vector3(0, 180, 0);
+
+                //fix pink shaders, NOTE: not always needed..
+                foreach (Renderer r in go.GetComponentsInChildren<Renderer>(includeInactive: true))
+                {
+                    // FIXME: creates multiple materials, not good
+                    var material = Shader.Find(r.material.shader.name);
+                    r.material.shader = null;
+                    r.material.shader = material;
+                }
             }
             www.Dispose();
             www = null;
